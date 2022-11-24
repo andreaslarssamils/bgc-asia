@@ -1,5 +1,11 @@
 .container {
-  padding: 0 2rem;
+  height: 100vh;
+  padding: 5rem;
+  background: url('/bgc-cartoon.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: black;
 }
 
 .main {
@@ -115,7 +121,7 @@
   }
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   .card,
   .footer {
     border-color: #222;
@@ -126,4 +132,4 @@
   .logo img {
     filter: invert(1);
   }
-}
+} */
